@@ -60,7 +60,11 @@ class LoginPage extends StatelessWidget {
                       enabledBorder: OutlineInputBorder(
                           borderSide: BorderSide(color: Colors.black),
                           borderRadius: BorderRadius.all(Radius.circular(20))),
-                      label: Text("User Email"),
+                      label: Text(
+                        "User Email",
+                        style: TextStyle(
+                            color: Colors.black, fontFamily: "Bitter"),
+                      ),
                     ),
                   ),
                 ),
@@ -78,7 +82,11 @@ class LoginPage extends StatelessWidget {
                       enabledBorder: OutlineInputBorder(
                           borderSide: BorderSide(color: Colors.black),
                           borderRadius: BorderRadius.all(Radius.circular(20))),
-                      label: Text("User Password"),
+                      label: Text(
+                        "User Password",
+                        style: TextStyle(
+                            color: Colors.black, fontFamily: "Bitter"),
+                      ),
                     ),
                   ),
                 ),
